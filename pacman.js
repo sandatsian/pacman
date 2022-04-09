@@ -317,20 +317,13 @@ document.onkeydown = function (event) {
     console.log(map)
 }
 
-ghostCredit = [
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-]
+ghostCredit = [], b=[]
+while (ghostCredit.push( b = []) < height*2 + 1) while (b.push(0) < width*2+1);
+ghostCredit[2*height] = ghostCredit[0]
+console.log(map.length)
+console.log(ghostCredit.length)
 
+let pathDij;
 let prevPathDij;
 let prevPacmanLoc;
 let prevPathLastIdxUsedDij;
